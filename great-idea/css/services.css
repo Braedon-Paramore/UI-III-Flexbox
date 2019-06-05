@@ -63,3 +63,22 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+///////////////////////////////////////////////
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 691px;
+    margin-top: 35px;
+  }
+  
+  header nav a {
+    margin-right: 65px;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
