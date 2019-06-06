@@ -78,8 +78,13 @@ h1, h2, h3, h4, h5 {
 header nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 691px;
   margin-top: 35px;
+}
+
+.logo {
+  margin-left: 25px;
 }
 
 
@@ -106,22 +111,18 @@ header nav a:last-child {
 }
 
 
-header .logo {
-  display: flex;
-  justify-content: absolute;
-
-}
-
-
 /* cta */
 
-.cta .cta-text {
-  display: inline-block;
-  vertical-align: top;
+.cta {
+  display: flex;
+  flex-flow: row nowrap;
   font-size: 77px;
-  margin-top: 120px;
+  margin-top: 80px;
   text-align: center;
-  padding: 0px 75px;
+  padding: 0px 30px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .cta .cta-text button {
@@ -139,10 +140,7 @@ header .logo {
   color: white;
 }
 
-.cta img {
-  display: inline-block;
-  margin-top: 69px;
-}
+/* main-content */
 
 .main-content {
   border-top: 1px solid black;
@@ -152,11 +150,12 @@ header .logo {
 
 .main-content .top-content {
   padding: 0 10px;
+  display: flex;  
+  flex-flow: row nowrap;
 }
 
 .main-content .top-content .text-content {
   width: 410px;
-  display: inline-block;
   margin-right: 34px;
 }
 
@@ -171,11 +170,12 @@ header .logo {
 .main-content .bottom-content {
   margin-top: 37px;
   padding: 0 10px;
+  display: flex;  
+  flex-flow: row nowrap;
 }
 
 .main-content .bottom-content .text-content {
   width: 275px;
-  display: inline-block;
   margin-right: 12px;
 }
 
